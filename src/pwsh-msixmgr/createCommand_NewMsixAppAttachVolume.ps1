@@ -14,7 +14,7 @@ $paramsToAdd = @(
     [ParamInfoItem]::new("PackagePath", "-packagePath", "string", "The path to the MSIX package."),
     [ParamInfoItem]::new("DestinationPath", "-destination", "string", "The output file path."),
     [ParamInfoItem]::new("VhdSizeInMB", "-vhdSize", "int", "The size of the VHD file in MB."),
-    [ParamInfoItem]::new("OutputFileType", "-filetype", "string", "The type the output file should be in (VHD, VHDX, or CIM)."),
+    [ParamInfoItem]::new("OutputFileType", "-filetype", "string", "The type the output file should be in (VHD, VHDX, or CIM).", "VHD"),
     [ParamInfoItem]::new("RootDirectoryName", "-rootDirectory", "string", "The root directory name to use in the output file (Does not need to be anything specific).", "app")
 )
 
