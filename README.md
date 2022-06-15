@@ -25,6 +25,8 @@ The module output will be located in `out\pwsh-msixmgr\`.
 
 ### `New-MsixAppAttachVolume`
 
+> ⚠️ **Note:** The PowerShell console will need to be elevated with admin permissions for it to work.
+
 Create a MSIX App Attach volume to use for Azure Virtual Desktop session hosts.
 
 #### Example 01
