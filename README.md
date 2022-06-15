@@ -1,6 +1,6 @@
 # `msixmgr.exe` PowerShell wrapper
 
-Wraps the `msixmgr.exe` tool as a PowerShell function using PowerShell Crescendo.
+Wraps the [`msixmgr.exe` tool](https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach-msixmgr) as a PowerShell function using PowerShell Crescendo.
 
 ## Building
 
